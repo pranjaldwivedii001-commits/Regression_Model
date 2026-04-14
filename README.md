@@ -1,8 +1,6 @@
 # Regression_Model
 # Wind Turbine Power Output Forecasting
 
-![Wind Turbine](https://raw.githubusercontent.com/ml-engineer-on-gcp/ml-engineer-on-gcp/main/resources/wind_turbine_thumbnail.png)
-
 ## Project Overview
 
 This project aims to develop a robust machine learning model for accurately forecasting power output from individual wind turbines. The unpredictability of power output can lead to inefficiencies in grid planning, reduced profitability, and increased maintenance costs. An accurate prediction model is crucial for optimizing grid integration, improving operational efficiency, and reducing downtime.
@@ -74,6 +72,10 @@ RandomizedSearchCV was employed to fine-tune the hyperparameters of the Random F
 
 The **Tuned Random Forest Regressor** demonstrated the best performance, achieving the lowest Mean Squared Error (3.91) and the highest R-squared value (0.48), indicating it explains the most variance in the target variable.
 
+
+<img width="442" height="267" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/f4dff97c-e605-4a7f-831b-0d350f618930" />
+
+
 ## Visualizations
 
 Key visualizations include:
@@ -85,5 +87,3 @@ Key visualizations include:
 ## Conclusion
 
 The project successfully developed and optimized a machine learning model for wind turbine power output forecasting. The Tuned Random Forest Regressor significantly outperformed other models, providing a more accurate prediction capability, which can aid in better grid planning and operational efficiency.
-
-## Usage and Reproduction
